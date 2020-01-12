@@ -1,0 +1,8 @@
+para testar:
+
+[1,2,3]
+index.php?modulo=Clientes&acao=ver&id=3 
+index.php?modulo=Fornecedores&acao=ver&id=3
+
+index.php?modulo=Fornecedores&acao=todos
+index.php?modulo=Clientes&acao=todos

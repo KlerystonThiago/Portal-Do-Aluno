@@ -1,0 +1,108 @@
+html{
+    min-width:100vw;
+    min-height:100vh !important;
+    width:100vw;
+    height:100vh !important;
+}
+
+.cfh{
+    min-height:100vh;
+    height:100vh;
+}
+
+.caixaBanner{
+    min-height:100%;
+    height:100%;
+}
+
+.bannerPainel{    
+    min-height:100%;
+    background-image:url('../img/backBanner.jpg');
+    background-position:center center;
+    background-size:cover;
+}
+
+.sombra{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color:rgba(3, 33, 61, 0.8);
+    z-index:1;
+    margin-left: -15px;
+}
+
+.tituloBannerSvg{
+    width:70%;
+    height:300px;
+    z-index: 9;
+    background-image:url('../img/tituloPortal.svg');
+    background-position:center center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin:0px auto;
+    margin-top:150px;
+    position:relative;    
+}
+
+.logo{
+    height:100px;
+    background-image:url('../img/logo.svg');
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top:50px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    /* box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05); */
+    border-radius: 0.15rem;
+    top:10px;
+}
+
+/* Tabs Card */
+
+.tab-card {
+  border:0px solid #eee;
+}
+
+.tab-card-header {
+  background:none;
+}
+/* Default mode */
+.tab-card-header > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tab-card-header > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tab-card-header > .nav-tabs > li > a {
+  border: 0;
+  border-bottom:0px solid transparent;
+  margin-right: 0;
+  color: #737373;
+  padding: 2px 15px;
+}
+
+.tab-card-header > .nav-tabs > li > a.show {
+    border-bottom:0px solid #007bff;
+    color: #007bff;
+}
+.tab-card-header > .nav-tabs > li > a:hover {
+    color: #007bff;
+}
+
+.centerBtnLogin{
+    margin-top:10px;
+}
+
+.tLogin{
+    color:#076799;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
